@@ -2,7 +2,7 @@
 
 namespace Scraper\Sdk;
 
-use Scraper\Sdk\Core\HttpClient;
+use Curl\Sdk\HttpClient;
 
 /**
  * Scraper
