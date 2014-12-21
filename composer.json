@@ -1,0 +1,27 @@
+{
+    "name": "daa/web-scraping-sdk",
+    "type": "sdk",
+    "description": "Composer package that simplifies web scraping",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Antelo",
+            "email": "danielanteloagra@gmail.com",
+            "homepage": "http://danielanteloagra.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scraper\\Sdk\\": "src",
+            "Scraper\\Sdk\\Tests\\": "tests",
+            "Example\\Scraper\\": "examples"
+        }
+    }
+}

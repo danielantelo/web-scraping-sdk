@@ -1,0 +1,38 @@
+# vendor files
+vendor
+
+# composer files
+composer.lock
+composer.phar
+
+# misc generated
+bin/
+build/
+logs/
+scraped-data
+example/scraped-data
+tests/scraped-data
+
+# ide files
+.settings
+.project
+.buildpath
+nbproject
+
+# temp/os files
+.DS_Store
+.AppleDouble
+.AppleDB
+.AppleDesktop
+.LSOverride
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN
+Desktop.ini
+._*
+*~
+*.lock
+*.swp
+*.out
